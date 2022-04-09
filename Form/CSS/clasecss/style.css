@@ -1,0 +1,20 @@
+p {
+    color: blueviolet;
+    font-size: 45px;
+}
+
+
+/*class*/
+
+.titulo {
+    color: coral;
+    font-size: 50px;
+}
+
+
+/*Usando ID*/
+
+#texto {
+    color: darkblue;
+    font-size: 50px;
+}
