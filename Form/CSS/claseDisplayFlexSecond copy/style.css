@@ -1,0 +1,49 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            font-size: 62.5%;
+        }
+        
+        body {
+            font-size: 1.6rem;
+        }
+        
+        .container {
+            border: 0.3rem solid black;
+            display: flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+        }
+        
+        .box {
+            height: 10rem;
+            flex-basis: 10rem;
+        }
+        
+        .box1 {
+            background-color: blue;
+        }
+        
+        .box2 {
+            background-color: rgb(0, 255, 72);
+        }
+        
+        .box3 {
+            background-color: rgb(251, 0, 255);
+        }
+        
+        .box4 {
+            background-color: rgb(255, 196, 0);
+        }
+        
+        .box5 {
+            background-color: blue;
+        }
+        
+        .box6 {
+            background-color: rgb(187, 0, 255);
+        }

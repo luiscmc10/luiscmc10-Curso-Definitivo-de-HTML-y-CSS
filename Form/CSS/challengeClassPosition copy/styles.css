@@ -1,0 +1,150 @@
+                            * {
+                                box-sizing: border-box;
+                                padding: 0;
+                                margin: 0;
+                            }
+                            
+                            html {
+                                font-size: 62.5%;
+                                background-color: white;
+                            }
+                            /*Header of page*/
+                            
+                            header {
+                                display: flex;
+                                justify-content: space-between;
+                                color: black;
+                                margin: 0 8rem;
+                                flex-wrap: wrap;
+                                font-size: 0.8rem;
+                            }
+                            
+                            .header__part {
+                                display: flex;
+                                align-items: center;
+                                flex-direction: row;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                            
+                            #header__part__2 {
+                                flex-direction: row-reverse;
+                            }
+                            
+                            #header__part__2 {
+                                margin-left: 1.4rem;
+                            }
+                            
+                            header>div>img {
+                                height: 7rem;
+                                width: auto;
+                            }
+                            /*Contenido principal del sitio*/
+                            
+                            .lista-planetas {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                                flex-wrap: wrap;
+                                padding: 1rem;
+                                background-color: white;
+                            }
+                            
+                            .contenedor {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            
+                            .planeta {
+                                height: 28rem;
+                                width: 20rem;
+                                font-size: 1.2rem;
+                                border-radius: 0.8rem;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                padding-bottom: 1.2rem;
+                                font-family: sans-serif;
+                            }
+                            
+                            img {
+                                width: 15rem;
+                                height: 15rem;
+                            }
+                            
+                            .titulo {
+                                font-size: 2rem;
+                                width: 15rem;
+                                border-radius: 0.8rem;
+                                position: relative;
+                                font-family: sans-serif;
+                                color: white;
+                            }
+                            
+                            .titulo>h2 {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            /*Colores de los planetas*/
+                            
+                            #mercurio {
+                                background-color: aqua;
+                            }
+                            
+                            #venus {
+                                background-color: aqua;
+                            }
+                            
+                            #tierra {
+                                background-color: aqua;
+                            }
+                            
+                            #marte {
+                                background-color: aqua;
+                            }
+                            /*footer*/
+                            
+                            footer {
+                                color: white;
+                                display: flex;
+                                align-items: center;
+                                flex-direction: column;
+                                justify-content: center;
+                                font-size: 1.5rem;
+                                font-family: 'Kumbh Sans', sans-serif;
+                                padding: 1rem 0;
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                                color: rgb(147, 146, 156);
+                            }
+                            
+                            @media (min-width: 419px) {
+                                #header__part__2 {
+                                    flex-direction: row;
+                                }
+                            }
+                            
+                            @media (min-width: 900px) {
+                                header {
+                                    margin: 0 8rem;
+                                    font-size: 1.1rem;
+                                }
+                                .planeta {
+                                    margin: 0 3rem;
+                                    font-size: 1.2rem;
+                                }
+                            }
+                            
+                            @media (min-width: 1080px) {
+                                .lista-planetas {
+                                    justify-content: space-evenly;
+                                    padding: 0 8rem;
+                                }
+                                .planeta {
+                                    margin: 0 5rem;
+                                    font-size: 1.2rem;
+                                }
+                            }

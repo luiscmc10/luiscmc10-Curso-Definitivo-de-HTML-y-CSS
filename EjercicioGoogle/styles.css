@@ -1,0 +1,34 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 62.5%;
+        background-color: black;
+    }
+    
+    header {
+        display: flex;
+        height: 7rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    a {
+        color: white;
+        font-size: 1.6rem;
+    }
+    
+    nav.imagen {
+        align-items: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 10rem;
+    }

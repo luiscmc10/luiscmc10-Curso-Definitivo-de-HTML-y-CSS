@@ -1,0 +1,13 @@
+/* Hijo directo 
+
+div>p {
+    color: aqua;
+}
+*/
+
+
+/* Descendiente*/
+
+div p {
+    color: red;
+}

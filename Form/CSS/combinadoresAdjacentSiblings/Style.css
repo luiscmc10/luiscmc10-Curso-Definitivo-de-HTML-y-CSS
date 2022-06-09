@@ -1,0 +1,14 @@
+/* Adjacent sibling - Hermano adyacente o cercano*/
+
+
+/*h2+p {
+    color: red;
+}
+*/
+
+
+/* General  sibling - Hermano general */
+
+h2~p {
+    color: blueviolet
+}

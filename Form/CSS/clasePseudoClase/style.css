@@ -24,6 +24,6 @@
     color: red
 }
 
-.main-nav__item a:after {
-    content: " | ";
+.main-nav__item a::after {
+    content: "|";
 }
